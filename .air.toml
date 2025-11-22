@@ -1,0 +1,18 @@
+# Root of your project
+root = "."
+
+# Temporary build directory
+tmp_dir = "tmp"
+
+[build]
+# EXACTLY what to build
+cmd = "go build -o ./tmp/main.exe ./cmd/server"
+
+# Path to the binary Air will run
+bin = "tmp/main.exe"
+
+# Files to watch
+include_ext = ["go"]
+
+# Folders to ignore
+exclude_dir = ["tmp", "vendor"]

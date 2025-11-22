@@ -162,7 +162,7 @@ Build REST API.
 
 ---
 
-# 10. JSON Encoding/Decoding
+# 10.JSON Encoding/Decoding
 
 **Purpose:**
 Parse API requests and responses.
